@@ -1,0 +1,5 @@
+{
+    "id": {"type": "string"},
+    "givenName": {"type": "string"},
+    "required" : ["id"]
+}

@@ -1,0 +1,8 @@
+{
+    "deviceId": {"type": "string"},
+    "id": {"type": "string"},
+    "displayName": {"type": "string"},
+    "registrationDateTime": {"type": "DateTimeOffset"},
+    "approximateLastSignInDateTime": {"type": "DateTimeOffset"},
+    "required" : ["deviceId", "id", "displayName"]
+}

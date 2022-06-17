@@ -1,0 +1,39 @@
+# Information for establish the connection to the database
+[postgresql]
+host=
+database=
+user=
+password=
+
+# Information about an ednpoint used for trining purposes
+[ping]
+url=https://horizon-s1.ubroker.dev/v1/ping
+schema=data\schema.json
+
+# Relative path of the migrations foldes. To be changed with rispect to the used os
+[migrations]
+rel_path=data\migrations
+
+# Information about the Azure application and the files used for the validation
+[graph]
+authority=https://login.microsoftonline.com/ubroker.it
+client_id=
+scope=https://graph.microsoft.com/.default
+secret=
+users_schema=data\schema_users.json
+devices_schema=data\schema_devices.json
+devices_period=180
+
+# Timeframe used in the logs command and validation file
+[logs]
+timeframe=1
+logs_schema=data\schema_logs.json
+
+# Parameter used in the queries and relative path of file containing the queries
+[stats]
+distance=50
+delta_time=5
+unlogged_file=data\queries\unlogged_users.sql
+unused_file=data\queries\unused_devices.sql
+multilogs_file=data\queries\multilogs_devices.sql
+user_unregdev_file=data\queries\users_unreg_devices.sql

@@ -1,0 +1,22 @@
+{
+    "type": "object", 
+    "properties" :{
+        "response" : {
+            "type" : "object",
+            "properties" : {
+                "code" : {
+                    "type" : "integer"
+                },
+                "body" : {
+                    "type" : "object",
+                    "properties" : {
+                        "pong" :{
+                            "type" : "string"
+                        }
+                    }
+                }
+            },
+            "required" : ["code","body"]
+        }
+    }
+}

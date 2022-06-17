@@ -1,0 +1,30 @@
+{
+    "id": {"type": "string"},
+    "createdDateTime": {"type": "DateTimeOffset"},
+    "userDisplayName": {"type": "string"},
+    "userId": {"type": "string"},
+    "deviceDetail" : {
+        "type": "object",
+        "properties": {
+            "deviceId": {"type": "string"},
+            "displayName": {"type": "string"}
+        }
+    },
+    "location" : {
+        "type": "object",
+        "properties": {
+            "city": {"type": "string"},
+            "state": {"type": "string"},
+            "geoCoordinates" : {
+                "type": "object",
+                "properties": {
+                    "altitude": {"type": "Double"},
+                    "latitude": {"type": "Double"},
+                    "longitude": {"type": "Double"}
+                }
+            }
+        }
+    },
+    "required" : ["id", "createdDateTime", "userId"]
+
+}
