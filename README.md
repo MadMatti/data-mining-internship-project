@@ -1,6 +1,13 @@
+## Disclaimer
+This is the code of the project I developed during my three months internship at Ubroker.
+
+The report of the internship experience can be found on my profile in [this repository](https://github.com/MadMatti/internship-report) 
+
 # lab-evangelisti-2022
 
-Internship project with Python
+Data mining internship project developed in Python. 
+
+The aim of the project is to retrieve data about employee, company devices and logs from Micorosft Graph API. These data are then processed and manipulated thourh the use of SQL and PowerBi. 
 
 ## Modules
 
